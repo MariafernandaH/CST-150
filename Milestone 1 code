@@ -1,0 +1,68 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Milestone_Project
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Quantity_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Quantity.Select();
+            Quantity.Items.Add(1);
+            Quantity.Items.Add(2);
+            Quantity.Items.Add(3);
+            Quantity.Items.Add(4);
+            Quantity.Items.Add(5);
+            Quantity.Items.Add(6);
+            Quantity.Items.Add(7); 
+            Quantity.Items.Add(8);
+            Quantity.Items.Add(9);
+            Quantity.Items.Add(10);
+            Quantity.Items.Add(11);
+            Quantity.Items.Add(12);
+            Quantity.Items.Add(13);
+            Quantity.Items.Add(14);
+            Quantity.Items.Add(15);
+            Quantity.Items.Add(16);
+            Quantity.Items.Add(17);
+            Quantity.Items.Add(18);
+            Quantity.Items.Add(19);
+            Quantity.Items.Add(20);
+            Quantity.Items.Add(21);
+            Quantity.Items.Add(22);
+            Quantity.Items.Add(23);
+            Quantity.Items.Add(24);
+            Quantity.Items.Add(25);
+
+            //It isn't showing up on the dropdown menu during runtime
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            //picture of t-shirt prototype has been added
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
